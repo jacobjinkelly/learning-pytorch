@@ -15,6 +15,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 SOS_token = 0
 EOS_token = 1
 
+"""
+Download data from: <https://download.pytorch.org/tutorial/data.zip> and extract
+into the current directory.
+"""
+
 
 class Lang:
     def __init__(self, name):
